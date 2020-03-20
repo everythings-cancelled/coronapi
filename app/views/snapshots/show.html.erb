@@ -1,0 +1,29 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Location:</strong>
+  <%= @snapshot.location %>
+</p>
+
+<p>
+  <strong>Alpa2 code:</strong>
+  <%= @snapshot.alpa2_code %>
+</p>
+
+<p>
+  <strong>Latitude:</strong>
+  <%= @snapshot.latitude %>
+</p>
+
+<p>
+  <strong>Longitude:</strong>
+  <%= @snapshot.longitude %>
+</p>
+
+<p>
+  <strong>Deaths:</strong>
+  <%= @snapshot.deaths %>
+</p>
+
+<%= link_to 'Edit', edit_snapshot_path(@snapshot) %> |
+<%= link_to 'Back', snapshots_path %>
