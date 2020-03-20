@@ -7,7 +7,7 @@ class CreateSnapshots < ActiveRecord::Migration[5.2]
       t.float :longitude
       t.integer :deaths
       t.integer :confirmed
-      t.ingeger :recovered
+      t.integer :recovered
 
       t.timestamps
     end
